@@ -18,11 +18,11 @@ int main(){
         }
 
         n=1;
-        
+
         for(col=row-1; col>=1; col=col-1){
             cout<<col;
         }
-
+        
         cout<<endl;
 
     }
