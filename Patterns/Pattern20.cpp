@@ -2,20 +2,20 @@
 using namespace std;
 
 int main(){
-
-    int num, row, col;
+    int num, row, col, n;
     cin>>num;
-    int n=1; 
+    n=1;
 
     for(row=1; row<=num; row=row+1){
         for(col=1; col<=num-row; col=col+1){
             cout<<" ";
         }
-        for(col=1; col<=row; col=col+1){
-            cout<<n;
-            n=n+1;
+
+        for(col=1; col<=(row*2)-1; col=col+1){
+            cout<<'*';
         }
-        n=1;
+    
         cout<<endl;
+
     }
 }

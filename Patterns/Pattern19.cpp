@@ -1,21 +1,18 @@
 #include<iostream>
-using namespace std;
+using namespace std; 
 
 int main(){
-
     int num, row, col;
     cin>>num;
-    int n=1; 
 
     for(row=1; row<=num; row=row+1){
         for(col=1; col<=num-row; col=col+1){
             cout<<" ";
+
         }
-        for(col=1; col<=row; col=col+1){
-            cout<<n;
-            n=n+1;
+        for(col=row; col>=1; col=col-1){
+            cout<<col;
         }
-        n=1;
         cout<<endl;
     }
 }
