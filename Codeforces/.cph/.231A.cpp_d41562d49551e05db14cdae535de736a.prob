@@ -1,0 +1,1 @@
+{"name":"Local: 231A","url":"/home/aagore/C++/Codeforces/231A.cpp","tests":[{"id":1755719577415,"input":"3\n1 1 0\n1 1 1\n1 0 0\n","output":"2\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/aagore/C++/Codeforces/231A.cpp","group":"local","local":true}
